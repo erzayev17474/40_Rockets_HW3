@@ -1,0 +1,130 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+   background-color: rgb(10, 0, 36);
+}
+.header {
+    min-height: 100vh;
+    width: 100%;
+    
+}
+
+.logo {
+      position: top;
+      height: auto;
+      left: 0px;
+      width: 12%;
+}
+
+  nav{
+    max-width: 100%;
+    max-width: 100%;
+    height: 50px;
+    line-height: 15px;
+    padding:20px;
+    background-color: rgb(18, 86, 128);
+  }
+  nav ul {
+    float: right;
+}
+nav li{
+    display: inline-block;
+}
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 8px;
+    color: azure;
+}
+
+nav li a:hover{
+color: rgb(3, 3, 86);
+transition:all 1s;
+
+}
+
+h1 {
+    font-size: 3em;
+    padding-top: 50px;
+    width: 100%;
+    font-family:'Valera Round', Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color:yellow;
+}
+
+h2 {
+    font-weight:100;
+    font-size: 40px;
+    line-height: 26px;
+    padding-top:50px;
+    padding-bottom: 30px;
+    font-family: 'Valera Round', Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color:yellow;
+
+}
+
+p{
+    line-height: 120%;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 25px;
+    text-indent: 2px;
+    font-family: 'Yantramanav', sans-serif;
+    color:azure;
+}
+
+.feedback, .percantage, .submit, .school{
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 25px;
+    text-indent: 2px;
+    font-family: 'Yantramanav', sans-serif;
+    color:azure
+}
+
+table, td{
+    border: 1px solid black;
+    border-collapse:collapse;
+    font-family: 'Yantramanav', sans-serif;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    padding:10px;
+   color:grey;
+}
+
+
+thead{
+    color:azure;
+    background-color: rgb(5, 71, 112);
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+h3{
+padding: 15px 15px 5px;
+font-size: 25px;
+}
+.report3 {
+    color: azure;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Yantramanav', sans-serif;
+}
+.report3 ul {
+    padding-left: 65px;
+}
+footer{
+   background-color: rgb(18, 86, 128); 
+   text-align: right;
+   padding: 10px;
+}
+a{
+    color: azure;
+}
